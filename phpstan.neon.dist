@@ -1,0 +1,8 @@
+parameters:
+    level: 3
+    autoload_directories:
+        - %currentWorkingDirectory%/
+    excludes_analyse:
+        - %currentWorkingDirectory%/Tests
+        - %currentWorkingDirectory%/vendor
+        - %currentWorkingDirectory%/DependencyInjection/Configuration

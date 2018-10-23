@@ -1,0 +1,17 @@
+security_txt:
+    enabled: true
+    output_to: file
+    path: web/
+    info:
+        contact:
+            email: mailto:security@example.com
+            phone: tel:1234567890
+            url: https://test.com
+        encryption:
+            url: https://example.com/pgp-key.txt
+        policy:
+            url: https://example.com/security-policy.html
+        acknowledgements:
+            url: https://example.com/hall-of-fame.html
+        signature:
+            url: https://example.com/.well-known/security.txt.sig

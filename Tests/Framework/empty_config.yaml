@@ -1,0 +1,7 @@
+security_txt:
+    enabled: true
+    output_to: file
+    info:
+        contact:
+            comment: Test comment
+            email: test@email.com

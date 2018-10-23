@@ -1,0 +1,29 @@
+{
+    "name": "koderhut/securitytxt-bundle",
+    "description": "A Symfony bundle to generate the security.txt file",
+    "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": { "KoderHut\\SecurityTxtBundle\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "license": "MIT",
+    "require-dev": {
+        "nyholm/symfony-bundle-test": "dev-master",
+        "phpstan/phpstan": "^0.10.5",
+        "phpunit/phpunit": "^7.4",
+        "symfony/console": "4.1.*",
+        "symfony/http-kernel": "4.1.*"
+    },
+    "authors": [
+        {
+            "name": "Denis-Florin Rendler",
+            "email": "connect@rendler.me"
+        }
+    ],
+    "config": { "sort-packages": true },
+    "require": {
+        "koderhut/securitytxt": "^0.1.1"
+    }
+}
