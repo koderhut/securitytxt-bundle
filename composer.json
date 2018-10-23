@@ -11,6 +11,7 @@
     "license": "MIT",
     "require-dev": {
         "nyholm/symfony-bundle-test": "dev-master",
+        "php-coveralls/php-coveralls": "^2.1",
         "phpstan/phpstan": "^0.10.5",
         "phpunit/phpunit": "^7.4",
         "symfony/console": "4.1.*",
